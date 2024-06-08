@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5vw 6vw;
+    background-color: rgb(28, 106, 161);
+    color: white;
+    text-transform: uppercase;
+    font-family: "the bold font", serif;
+    margin-bottom: 1.8vw;
+}
+
+.score {
+    font-family: "montserrat", serif;
+    font-weight: bold;
+}
+
+.container{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px -1px 5px rgba(59, 59, 59, 0.5);
+    margin: 1.8vw 25%;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+#statementBox{
+    background-color: rgb(28, 106, 161);
+    color: white;
+    padding: 2vw;
+    border-radius: 5px;
+}
+
+#statement{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#propositions{
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vh;
+}
+
+#propositions button{
+    width: 20vw;
+    padding: .9vw .2vw;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#propositions button:hover{
+    cursor: pointer;
+}
+
+#start {
+    border: none;
+    border-radius: 10%;
+    padding: .8vw .6vw;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-family: "the bold font", serif;
+}
+
+.correct {
+    background-color: lightgreen;
+}
+.incorrect {
+    background-color: lightpink;
+}
+.hidden {
+    display: none;
+}
